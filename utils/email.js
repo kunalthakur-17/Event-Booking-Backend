@@ -1,5 +1,4 @@
-// const nodemailer = require('nodemailer');
-// const dotenv = require('dotenv');
+
 
 import nodemailer from 'nodemailer'
 import dotenv from 'dotenv'
@@ -63,4 +62,4 @@ const sendOTPEmail = async (userEmail, otp, type) => {
     }
 };
 
-module.exports = { sendBookingEmail, sendOTPEmail };
+export { sendBookingEmail, sendOTPEmail };
